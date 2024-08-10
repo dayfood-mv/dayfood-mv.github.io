@@ -1,0 +1,16 @@
+/* Use Tailwind CSS */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  color: #9c2b31;
+}
+
+a {
+  color: #9c2b31;
+}
+
+a:hover {
+  color: #6a1b1f;
+}
