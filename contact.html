@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Food - Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-rose-50 text-gray-800">
+
+    <!-- Navbar -->
+    <nav class="bg-rose-500 text-white p-4">
+        <div class="container mx-auto flex justify-between">
+            <a href="index.html" class="text-xl font-bold">Day Food</a>
+            <ul class="flex space-x-4">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="logistics.html">Logistics</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Us Form -->
+    <section class="py-10">
+        <div class="container mx-auto">
+            <h1 class="text-3xl font-bold mb-6 text-center">Get in Touch</h1>
+            <p class="text-center mb-6">We’d love to hear from you. Whether you're a customer or a prospective partner, reach out to us using the form below or through our contact details.</p>
+            <div class="flex justify-center">
+                <form class="w-1/2 bg-white p-6 rounded shadow">
+                    <div class="mb-4">
+                        <label for="name" class="block text-gray-700">Name</label>
+                        <input type="text" id="name" class="w-full p-2 border rounded" placeholder="Your Name">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block text-gray-700">Email</label>
+                        <input type="email" id="email" class="w-full p-2 border rounded" placeholder="Your Email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="subject" class="block text-gray-700">Subject</label>
+                        <input type="text" id="subject" class="w-full p-2 border rounded" placeholder="Subject">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block text-gray-700">Message</label>
+                        <textarea id="message" class="w-full p-2 border rounded" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="bg-rose-500 text-white py-2 px-4 rounded">Send Message</button>
+                </form>
+            </div>
+            <div class="mt-6 text-center">
+                <p><i class="fas fa-phone-alt text-rose-500"></i> +960 123-4567</p>
+                <p><i class="fas fa-envelope text-rose-500"></i> info@dayfood.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-rose-500 text-white p-4">
+        <div class="container mx-auto text-center">
+            &copy; 2024 Day Food. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>
